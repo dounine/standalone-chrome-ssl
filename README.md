@@ -2,5 +2,15 @@
 
 # standalone-chrome-ssl
 
-## 简介
-selenium/standalone-chrome的版本默认是不支持ssl拦截的、此版本可支持。
+## Introduction
+The selenium/standalone-chrome version does not support ssl blocking by default, and this version is supported.
+
+## Useage
+docker pull
+```
+docker pull dounine/standalone-chrome:1.0
+```
+docker run
+```
+docker run -d -p 4444:4444 --shm-size 2g dounine/standalone-chrome:1.0
+```
